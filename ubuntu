@@ -1,9 +1,9 @@
-node {
-	stage('Build') {
-		echo "haytham" > /var/www/html/index.html
-	}
-	stage('Test') {
-		echo "Test"
-	}
-}
 
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Thaha 1</h1>
+</body>
+</html>
