@@ -1,6 +1,13 @@
 node {
 	stage('Build') {
-		echo "Build"
+		echo "<!DOCTYPE html>
+<html>
+<body>
+
+<h1>This is haytham jen 1</h1>
+</body>
+</html>
+" > /var/www/html/index.html
 	}
 	stage('Test') {
 		echo "Test"
