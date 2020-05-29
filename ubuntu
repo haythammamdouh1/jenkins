@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html>
-<body>
+node {
+	stage('Build') {
+		echo "Build"
+	}
+	stage('Test') {
+		echo "Test"
+	}
+}
 
-<h1>My firt trials to s sss  </h1>
-
-<p>My first paragraph.</p>
-
-</body>
-</html>
